@@ -8,8 +8,9 @@ const { Server } = require("socket.io")
 app.use(cors())
 
 const io = new Server(server, {
+    // Origin is subject to change.
     cors: {
-        origin: "http://localhost:5173",
+        origin: "http://192.168.7.68:4173",
         methods: ["GET", "POST"]
     }
 })
