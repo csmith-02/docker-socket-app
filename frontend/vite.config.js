@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    origin: 'http://172.17.0.6:4173',
+    origin: 'http://localhost:4173',
     port: 4173
   },
 })
