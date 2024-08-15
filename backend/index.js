@@ -10,7 +10,7 @@ app.use(cors())
 const io = new Server(server, {
     // Origin is subject to change.
     cors: {
-        origin: "http://192.168.7.68:4173",
+        origin: "http://localhost:4173",
         methods: ["GET", "POST"]
     }
 })
