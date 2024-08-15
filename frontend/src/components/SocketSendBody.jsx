@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { io } from "socket.io-client"
-const socket = io.connect("http://localhost:3002")
+const socket = io("http://192.168.7.68:5050")
 
 function SocketSendBody(props) {
 
